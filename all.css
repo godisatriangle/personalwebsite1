@@ -22,7 +22,7 @@ li {
 }
 
 li:hover {
-  color: #d3bbe6;
+  color: #bb9ffc;
   cursor: pointer;
 }
 .drop {
@@ -58,11 +58,11 @@ span#word {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  color: #d3bbe6;
+  color: #bb9ffc;
 }
 .dropdown-content a:hover {
     background-color: inherit;
-    color: #d3bbe6;
+    color: #bb9ffc;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -92,7 +92,7 @@ a {
 
 }
 #image1:hover {
-  opacity: 0.7;
+  opacity: 0.8;
   cursor: pointer;
 }
 #image1 {
@@ -240,7 +240,7 @@ overflow: hidden;
   display: block;
   right: 0;
   bottom: 0;
-  width: 100px;
+  width: 140px;
   background-color: inherit;
   text-align: right;
   padding-right: 20px;
