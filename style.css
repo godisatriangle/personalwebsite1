@@ -21,6 +21,7 @@ li {
 
 }
 
+
 li:hover {
   color: #bb9ffc;
   cursor: pointer;
@@ -96,6 +97,7 @@ span#word {
 
 }
 
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -125,6 +127,53 @@ span#word {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.drop2 {
+  background-color: inherit;
+  color: inherit;
+  font-family: avenir;
+  font-size: 3.6vh;
+  border: none;
+
+
+}
+
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+float: left;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgb(255,255,255, 0.9);
+  min-width: 160px;
+  z-index: 1;
+  text-align: left;
+
+}
+
+.dropdown-content2 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content2 a:hover {
+    background-color: inherit;
+    color: #bb9ffc;
+}
+
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+.dropdown2:hover .dropbtn {background-color: #3e8e41;}
+
+
 
 #image1 {
 width: 300px;
@@ -204,5 +253,18 @@ overflow: hidden;
    background-color: inherit;
    text-align: right;
    padding-right: 20px;
+
+}
+.menu2 {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+
+    nav {
+      display: none;
+    }
+.menu2 {
+  display: flow-root;
+}
 
 }
