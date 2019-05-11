@@ -72,8 +72,8 @@ span#word {
 
 .image1 {
   border: solid white 1px;
-  width: 30vh;
-  height: 30vh;
+  width: 250px;
+  height: 250px;
   margin: 2vh;
   float: left;
   overflow: hidden;
@@ -176,7 +176,7 @@ float: left;
 
 
 #image1 {
-width: 30vh;
+width: 250px;
 height: auto;
 display: flex;
 position: absolute;
@@ -184,7 +184,7 @@ overflow: hidden;
 }
 
 #image2 {
-width: 30vh;
+width: 250px;
 height: auto;
 display: flex;
 position: absolute;
@@ -197,7 +197,7 @@ overflow: hidden;
 }
 
 #image3 {
-width: 30vh;
+width: 250px;
 height: auto;
 display: flex;
 position: absolute;
