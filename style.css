@@ -83,7 +83,7 @@ span#word {
 
 
 .image1:hover .overlay {
-  opacity: .8;
+  opacity: .9;
   cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ overflow: hidden;
    padding-right: 20px;
 
 }
-.menu2 {
+#blah {
   display: none;
 }
 @media only screen and (max-width: 700px) {
@@ -263,8 +263,60 @@ overflow: hidden;
     nav {
       display: none;
     }
-.menu2 {
-  display: flow-root;
+ #blah{
+  display: inline-block;
+  text-align: center;
+
 }
 
+
+}
+.over {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.over a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overl a:hover, .over a:focus {
+  color: #f1f1f1;
+}
+
+.over .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
