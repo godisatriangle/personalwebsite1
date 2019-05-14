@@ -300,3 +300,73 @@ overflow: hidden;
 
 
 }
+
+span.smaller {
+  font-size: 23px;
+}
+#blah {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+
+    nav {
+      display: none;
+    }
+ #blah{
+  display: inline-block;
+  text-align: center;
+  font-size: 4vh;
+
+}
+
+
+}
+.over {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  padding: 10vh;
+}
+
+.over a {
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #bb9ffc;
+  display: block;
+  transition: 0.3s;
+}
+
+.overl a:hover, .over a:focus {
+  color: #ffffff;
+}
+
+.over .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
