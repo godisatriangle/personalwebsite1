@@ -291,7 +291,7 @@ span.smaller {
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 8%;
   width: 100%;
   text-align: left;
   padding: 10vh;
@@ -306,7 +306,7 @@ span.smaller {
   transition: 0.3s;
 }
 
-.overl a:hover, .over a:focus {
+.over a:hover, .over a:focus {
   color: #ffffff;
 }
 
@@ -314,7 +314,7 @@ span.smaller {
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 @media screen and (max-height: 450px) {
