@@ -70,7 +70,7 @@ li {
 
 li:hover {
   color: #bb9ffc;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 a {
@@ -97,7 +97,7 @@ a {
 }
 #image1:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 #image1 {
 width: auto;
@@ -117,7 +117,7 @@ overflow: hidden;
 }
 #image2:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image3 {
@@ -130,7 +130,7 @@ overflow: hidden;
 }
 #image3:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image4 {
@@ -143,7 +143,7 @@ overflow: hidden;
 }
 #image4:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image5 {
@@ -156,7 +156,7 @@ overflow: hidden;
 }
 #image5:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image6 {
@@ -169,7 +169,7 @@ overflow: hidden;
 }
 #image7:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 #image7 {
 width: 50vh;
@@ -181,7 +181,7 @@ overflow: hidden;
 }
 #image6:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 #image8 {
 width: auto;
@@ -193,7 +193,7 @@ overflow: hidden;
 }
 #image8:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 #image9 {
 width: auto;
@@ -205,7 +205,7 @@ overflow: hidden;
 }
 #image9:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .modal {
@@ -275,7 +275,7 @@ overflow: hidden;
 .close:focus {
   color: #bbb;
   text-decoration: none;
-  cursor: pointer;
+  cursor: crosshair;
   opacity: 1;
 }
 

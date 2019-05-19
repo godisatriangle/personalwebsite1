@@ -24,7 +24,7 @@ li {
 
 li:hover {
   color: #bb9ffc;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 a {
@@ -77,7 +77,7 @@ span#word {
 
 .image1:hover .overlay {
   opacity: .9;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 
@@ -186,7 +186,7 @@ overflow: hidden;
 }
 #image2:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image3 {
@@ -199,7 +199,7 @@ overflow: hidden;
 }
 #image3:hover {
   opacity: 0.8;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .overlay {

@@ -23,7 +23,7 @@ li {
 
 li:hover {
   color: #bb9ffc;
-  cursor: pointer;
+  cursor: crosshair;
 }
 .drop {
   background-color: inherit;
@@ -93,7 +93,7 @@ a {
 }
 #image1:hover {
   opacity: 0.8;
-  cursor: pointer;
+  cursor: crosshair;
 }
 #image1 {
 width: 50vh;
@@ -113,7 +113,7 @@ overflow: hidden;
 }
 #image2:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image3 {
@@ -126,7 +126,7 @@ overflow: hidden;
 }
 #image3:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image4 {
@@ -139,7 +139,7 @@ overflow: hidden;
 }
 #image4:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 #image5 {
@@ -152,7 +152,7 @@ overflow: hidden;
 }
 #image5:hover {
   opacity: 0.7;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .modal {
@@ -225,7 +225,7 @@ overflow: hidden;
 .close:focus {
   color: #bbb;
   text-decoration: none;
-  cursor: pointer;
+  cursor: crosshair;
   opacity: 1;
 }
 

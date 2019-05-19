@@ -6,9 +6,7 @@ h1 {
 text-align: center;
 font-weight: 400;
 }
-a:hover {
-  cursor: crosshair;
-}
+
 
 ul {
   list-style-type: none;
@@ -22,6 +20,7 @@ li {
 
 
 }
+
 
 li:hover {
   color: #bb9ffc;
@@ -38,22 +37,22 @@ span#word {
   display: block;
   color: #bb9ffc;
 }
-.images {
-  margin: 20px;
-  display: inline-table;
-  justify-content: center;
-  align-items: center;
+.about {
+  display: inline-block;
+
 }
 
-.image1 {
-  border: solid #bb9ffc 1px;
-  height: 293px;
-  width: 207px;
-  margin: 20px;
-  float: left;
-  overflow: hidden;
-  position: relative;
+#me {
+  margin-top: 7vh;
+  max-width: 50%;
+  text-align: justify;
+}
+#email {
+  text-decoration: underline;
+}
 
+#purple {
+  color: #bb9ffc;
 }
 
 
@@ -66,6 +65,7 @@ span#word {
   border: none;
 
 }
+
 
 .dropdown {
   position: relative;
@@ -86,7 +86,6 @@ span#word {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
 }
 
 .dropdown-content a:hover {
@@ -98,39 +97,52 @@ span#word {
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-#image1 {
-  height: 293px;
-  width: 207px;
+
+
+.drop2 {
+  background-color: inherit;
+  color: inherit;
+  font-family: avenir;
+  font-size: 3.6vh;
+  border: none;
+
+
 }
 
-#image1:hover {
-  opacity: 0.7;
 
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+float: left;
 }
 
-.overlay {
+.dropdown-content2 {
+  display: none;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #ffffff;
+  background-color: rgb(255,255,255, 0.9);
+  min-width: 160px;
+  z-index: 1;
+  text-align: left;
+
 }
-.text {
-  color: #ac8bf9;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+
+.dropdown-content2 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
 }
+
+.dropdown-content2 a:hover {
+    background-color: inherit;
+    color: #bb9ffc;
+}
+
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+.dropdown2:hover .dropbtn {background-color: #3e8e41;}
+
+
 .footer {
    position: fixed;
    display: block;
@@ -142,7 +154,6 @@ span#word {
    padding-right: 20px;
 
 }
-
 
 span.smaller {
   font-size: 23px;
@@ -179,7 +190,7 @@ span.smaller {
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 8%;
   width: 100%;
   text-align: left;
   padding: 10vh;
@@ -194,7 +205,7 @@ span.smaller {
   transition: 0.3s;
 }
 
-.overl a:hover, .over a:focus {
+.over a:hover, .over a:focus {
   color: #ffffff;
 }
 
@@ -202,14 +213,16 @@ span.smaller {
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .overlay a {font-size: 30px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
+}
+  #me {max-width: 90%}
   }
 }
