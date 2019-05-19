@@ -310,7 +310,7 @@ span.smaller {
   font-size: 40px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .overlay a {font-size: 30px}
   .overlay .closebtn {
   font-size: 40px;
