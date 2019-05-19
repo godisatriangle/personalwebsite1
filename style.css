@@ -37,16 +37,14 @@ span#word {
   display: block;
   color: #bb9ffc;
 }
-.about #portrait,
-.about #me {
-  display: inline;
+.about {
+  display: inline-block;
 
 }
+
 #me {
   margin-top: 7vh;
-  max-width: 90vh;
-  float: right;
-  margin-right: 20vw;
+  max-width: 50%;
   text-align: justify;
 }
 #email {
@@ -56,12 +54,7 @@ span#word {
 #purple {
   color: #bb9ffc;
 }
-#portrait {
-  max-width: 50vh;
-  margin-top: 7vh;
-  margin-left: 9vw;
 
-}
 
 .images {
   margin: 20px;
