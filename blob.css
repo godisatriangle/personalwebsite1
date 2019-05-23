@@ -369,4 +369,21 @@ span.smaller {
   top: 15px;
   right: 35px;
   }
+  .images {
+    height: 250px;      /* equals max image height */
+      width: 250px;
+      border: none;
+      white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+
+      text-align: center; margin: 1em 0;
+  }
+  .image1 {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+  }
+  img#image1 #image2 #image3 {
+      vertical-align: middle;
+      max-width: 160px;
+  }
 }
