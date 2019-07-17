@@ -2,13 +2,10 @@ body {
   font-family: avenir;
 
 }
-
 h1 {
 text-align: center;
 font-weight: 400;
 }
-
-
 
 .drop {
   background-color: inherit;
@@ -87,9 +84,9 @@ a {
 
 .image1 {
   border: solid white 1px;
-  width: 50vh;
-  height: 50vh;
-  margin: 20px;
+  width: 250px;
+  height: 250px;
+  margin: 2vh;
   float: left;
   overflow: hidden;
   position: relative;
@@ -100,20 +97,19 @@ a {
   cursor: crosshair;
 }
 #image1 {
-width: auto;
-height: 50vh;
-display: flex;
-position: absolute;
-overflow: hidden;
+  height: 250px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 }
 
 #image2 {
-width: 50vh;
-height: auto;
-display: flex;
-position: absolute;
-overflow: hidden;
-
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 }
 #image2:hover {
   opacity: 0.7;
@@ -121,11 +117,11 @@ overflow: hidden;
 }
 
 #image3 {
-width: 50vh;
-height: auto;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image3:hover {
@@ -134,11 +130,11 @@ overflow: hidden;
 }
 
 #image4 {
-width: 50vh;
-height: auto;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image4:hover {
@@ -147,11 +143,11 @@ overflow: hidden;
 }
 
 #image5 {
-width: auto;
-height: 50vh;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image5:hover {
@@ -160,11 +156,11 @@ overflow: hidden;
 }
 
 #image6 {
-width: 50vh;
-height: auto;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image7:hover {
@@ -172,11 +168,11 @@ overflow: hidden;
   cursor: crosshair;
 }
 #image7 {
-width: 50vh;
-height: auto;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image6:hover {
@@ -184,11 +180,11 @@ overflow: hidden;
   cursor: crosshair;
 }
 #image8 {
-width: auto;
-height: 50vh;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image8:hover {
@@ -196,11 +192,11 @@ overflow: hidden;
   cursor: crosshair;
 }
 #image9 {
-width: auto;
-height: 50vh;
-display: flex;
-position: absolute;
-overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
 
 }
 #image9:hover {
@@ -361,29 +357,29 @@ span.smaller {
   right: 45px;
   font-size: 60px;
 }
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+@media screen and (max-width: 450px) {
+  .overlay a {font-size: 30px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
-  }
-  .images {
-    height: 250px;      /* equals max image height */
-      width: 250px;
-      border: none;
-      white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+}
+.images {
+  height: 160px;      /* equals max image height */
+    width: 160px;
+    border: none;
+    white-space: nowrap; /* this is required unless you put the helper span closely near the img */
 
-      text-align: center; margin: 1em 0;
-  }
-  .image1 {
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
-  }
-  img#image1 #image2 #image3 {
-      vertical-align: middle;
-      max-width: 160px;
+    text-align: center; margin: 1em 0;
+}
+.image1 {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+img#image1 #image2 #image3 {
+    vertical-align: middle;
+    max-width: 160px;
+}
   }
 }

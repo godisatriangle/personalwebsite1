@@ -2,7 +2,6 @@ body {
   font-family: avenir;
 
 }
-
 h1 {
 text-align: center;
 font-weight: 400;
@@ -45,7 +44,7 @@ li:hover {
   background-color: rgb(255,255,255, 0.9);
   min-width: 160px;
   z-index: 1;
-  text-align: left;
+  text-align: justify;
 
 }
 
@@ -234,6 +233,8 @@ overflow: hidden;
   .modal-content {
     width: 100%;
   }
+
+
 }
 .footer {
   position: fixed;
@@ -314,5 +315,68 @@ span.smaller {
   font-size: 40px;
   top: 15px;
   right: 35px;
+  }
+  #image1:hover {
+    opacity: 0.8;
+    cursor: crosshair;
+  }
+  #image1 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  }
+
+  #image2 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+
+  }
+  #image2:hover {
+    opacity: 0.7;
+    cursor: crosshair;
+  }
+
+  #image3 {
+  width: auto;
+  height: 80vw;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+
+  }
+  #image3:hover {
+    opacity: 0.7;
+    cursor: crosshair;
+  }
+
+  #image4 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+
+  }
+  #image4:hover {
+    opacity: 0.7;
+    cursor: crosshair;
+  }
+
+  #image5 {
+  width: auto;
+  height: 80vw;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+
+  }
+  #image5:hover {
+    opacity: 0.7;
+    cursor: crosshair;
   }
 }
