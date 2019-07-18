@@ -74,7 +74,7 @@ a {
   text-decoration: none;
 }
 .images {
-  margin: 2vh;
+  margin: 10px;
   display: inline-table;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@ a {
   border: solid white 1px;
   width: 40vh;
   height: 40vh;
-  margin: 2vh;
+  margin: 10px;
   float: left;
   overflow: hidden;
   position: relative;
